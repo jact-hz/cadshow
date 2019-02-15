@@ -4,10 +4,6 @@
     android:versionCode="100"
     android:versionName="1.0.0">
 
-    <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="21"/>
-
     <!-- 创建桌面快捷方式,无富媒体消息则不需要 -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />

@@ -5,7 +5,7 @@ buildscript {
     repositories {
         google()
         jcenter()
-        maven { url "http://47.97.21.18:8081/nexus/content/repositories/thirdparty/"}
+        maven { url "https://github.com/jact-hz/cadshow/master"}
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.1'
@@ -20,7 +20,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url "http://47.97.21.18:8081/nexus/content/repositories/thirdparty/"}
+        maven { url "https://raw.githubusercontent.com/jact-hz/cadshow/master"}
     }
 }
 

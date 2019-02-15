@@ -13,7 +13,7 @@ public class SdkApplication extends MultiDexApplication {
     @Override
     public void onCreate() {
         super.onCreate();
-        CCBimSdkUtil.initSdk(this);
+        //CCBimSdkUtil.initSdk(this);
 //        WeqiaApplication.getInstance().init();
 
     }
